@@ -198,20 +198,23 @@ section {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 40px;
+  padding: 5px;
 }
 .contact-info ul {
   list-style: none;
   margin-top: 10px;
+  margin-left: 5px;
 }
 .contact-info li {
   margin-bottom: 8px;
 }
 form {
-  display: flex;
+    display: flex;
   flex-direction: column;
   gap: 12px;
   width: 100%;
   max-width: 400px;
+  margin-right: 5px;
 }
 form input, form textarea {
   padding: 10px;
